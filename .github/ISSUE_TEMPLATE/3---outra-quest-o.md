@@ -6,6 +6,8 @@ labels: ajuste de texto
 assignees: ''
 
 ---
+**Registre os ajustes de textos necessários**
+
 [ ] - Ajuste de texto 1
 Modelo:
 Grid:
