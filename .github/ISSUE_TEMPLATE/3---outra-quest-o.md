@@ -14,10 +14,10 @@ Modelo:
 
 Grid:
 
-Campo Local:
+Campo/Local:
 
 Texto original:
 
-Texto Sugerido:
+Texto sugerido:
 
 ----
