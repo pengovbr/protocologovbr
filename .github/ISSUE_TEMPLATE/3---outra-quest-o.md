@@ -6,45 +6,9 @@ labels: ajuste de texto
 assignees: ''
 
 ---
-**Registre os ajustes de textos necessários**
+**Registre os ajustes de textos necessários conforme o modelo:**
 
-**Ajuste de texto 1 []
-
-Modelo:
-
-Grid:
-
-Campo Local:
-
-Texto original:
-
-Texto Sugerido:
-
-**Ajuste de texto 2
-
-Modelo:
-
-Grid:
-
-Campo Local:
-
-Texto original:
-                           
-Texto Sugerido:
-
-**Ajuste de texto 3
-
-Modelo:
-
-Grid:
-
-Campo Local:
-
-Texto original:
-              
-Texto Sugerido:
-
-**Ajuste de texto 4
+**Ajuste de texto
 
 Modelo:
 
@@ -56,14 +20,4 @@ Texto original:
 
 Texto Sugerido:
 
-**Ajuste de texto 5
-
-Modelo:
-
-Grid:
-
-Campo Local:
-
-Texto original:
-
-Texto Sugerido:
+----
