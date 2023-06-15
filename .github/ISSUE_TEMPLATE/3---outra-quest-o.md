@@ -8,7 +8,7 @@ assignees: ''
 ---
 **Registre os ajustes de textos necessários**
 
-[ ] - Ajuste de texto 1
+**Ajuste de texto 1 []
 
 Modelo:
 
@@ -20,7 +20,7 @@ Texto original:
 
 Texto Sugerido:
 
-[ ] - Ajuste de texto 2
+**Ajuste de texto 2
 
 Modelo:
 
@@ -32,7 +32,7 @@ Texto original:
                            
 Texto Sugerido:
 
-[ ] - Ajuste de texto 3
+**Ajuste de texto 3
 
 Modelo:
 
@@ -44,7 +44,7 @@ Texto original:
               
 Texto Sugerido:
 
-[ ] - Ajuste de texto 4
+**Ajuste de texto 4
 
 Modelo:
 
@@ -56,7 +56,7 @@ Texto original:
 
 Texto Sugerido:
 
-[ ] - Ajuste de texto 5
+**Ajuste de texto 5
 
 Modelo:
 
