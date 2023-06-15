@@ -21,29 +21,49 @@ Texto original:
 Texto Sugerido:
 
 [ ] - Ajuste de texto 2
+
 Modelo:
+
 Grid:
+
 Campo Local:
+
 Texto original:
+                           
 Texto Sugerido:
 
 [ ] - Ajuste de texto 3
+
 Modelo:
+
 Grid:
+
 Campo Local:
+
 Texto original:
+              
 Texto Sugerido:
 
 [ ] - Ajuste de texto 4
+
 Modelo:
+
 Grid:
+
 Campo Local:
+
 Texto original:
+
 Texto Sugerido:
 
 [ ] - Ajuste de texto 5
+
 Modelo:
+
 Grid:
+
 Campo Local:
+
 Texto original:
+
 Texto Sugerido:
