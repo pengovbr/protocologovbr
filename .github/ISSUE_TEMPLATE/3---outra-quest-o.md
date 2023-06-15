@@ -9,11 +9,16 @@ assignees: ''
 **Registre os ajustes de textos necessários**
 
 [ ] - Ajuste de texto 1
-Modelo
-Grid
-Campo Local
-Texto original
-Texto Sugerido
+
+Modelo:
+
+Grid:
+
+Campo Local:
+
+Texto original:
+
+Texto Sugerido:
 
 [ ] - Ajuste de texto 2
 Modelo:
