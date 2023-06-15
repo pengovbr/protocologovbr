@@ -8,7 +8,7 @@ assignees: ''
 ---
 **Registre os ajustes de textos necessários conforme o modelo:**
 
-**Ajuste de texto
+**Ajuste de texto**
 
 Modelo:
 
