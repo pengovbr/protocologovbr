@@ -1,8 +1,18 @@
----
-name: 3 - Outra questão
-about: Registre aqui outras questões não relacionadas com erros ou melhorias
-title: ''
-labels: questão
+name: 3 - Alteração de Texto
+about: Registre aqui as alterações de texto que deseja imprementar no Protocolo.GOV.BR
+etapa: ''
+grid:
+campo:
+[ ] -
+[ ] -
+[ ] -
+[ ] -
+[ ] -
+[ ] -
+[ ] - 
+[ ] -
+[ ] -
+labels: ajuste de texto
 assignees: ''
 
 ---
