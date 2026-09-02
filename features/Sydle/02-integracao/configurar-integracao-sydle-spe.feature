@@ -1,6 +1,5 @@
 #language: pt
 
-@integracao @spe @protocologovbr
 Funcionalidade: Configuração da Integração do Protocolo GOV.BR com o SPE
 
   Como Configurador de Integração
