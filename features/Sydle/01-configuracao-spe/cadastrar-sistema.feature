@@ -1,20 +1,29 @@
 # language: pt
 
-Funcionalidade: Cadastro do Sistema no SPE
+Funcionalidade: Cadastro do Sistema para integração com o Protocolo GOV.BR
 
-  Como administrador do SPE
-  Quero cadastrar o sistema Protocolo GOV.BR
-  Para permitir sua integração com o ambiente do órgão
+  Como Administrador do Sistema
+  Quero cadastrar o sistema Protocolo GOV.BR no SPE
+  Para permitir a integração via webservice
+
+  Regra de Negócio:
+    - Apenas Administradores podem cadastrar sistemas.
+    - O nome e sigla do sistema são obrigatórios.
+    - O órgão deve ser informado.
+    - O cadastro deve ser persistido após salvar.
 
   Cenário: Cadastrar sistema com sucesso
-    Dado que o administrador acessou o menu Administração > Sistemas
-    Quando informar a sigla do sistema
-    E informar o nome do sistema
-    E salvar o cadastro
-    Então o sistema deve ser cadastrado com sucesso
+    Dado que o Administrador acessou "Administração > Sistemas > Novo"
+    Quando informar o Órgão
+    E informar a Sigla "PGOV"
+    E informar o Nome "Protocolo GOV.BR"
+    E clicar em "Salvar"
+    Então o sistema deverá ser cadastrado com sucesso
+    E deverá ficar disponível para configuração dos serviços
 
-  Cenário: Impedir cadastro sem sigla
-    Dado que o administrador iniciou um cadastro
-    Quando deixar a sigla em branco
-    E solicitar o salvamento
-    Então o sistema deve exibir mensagem de validação
+  Cenário: Tentar salvar sem preencher campos obrigatórios
+    Dado que o Administrador acessou a tela de cadastro
+    Quando deixar o Nome do Sistema vazio
+    E clicar em "Salvar"
+    Então deverá ser exibida mensagem de validação
+    E o sistema não deverá ser cadastrado
