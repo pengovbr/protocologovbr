@@ -1,2 +1,2 @@
 # protocologovbr
-Repo para issues do Protocolo Digital gov.br
+Repositório para gerenciamento do Protocolo GOV.BR
