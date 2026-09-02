@@ -1,20 +1,29 @@
 # language: pt
 
-Funcionalidade: Cadastro de Serviço do Protocolo GOV.BR
+Funcionalidade: Cadastro de Serviço do SPE
 
-  Como administrador do SPE
+  Como Administrador do Sistema
   Quero cadastrar um serviço
-  Para disponibilizar operações para integração
+  Para permitir que o Protocolo GOV.BR utilize as operações disponibilizadas pelo SPE
 
-  Cenário: Cadastrar serviço
-    Dado que existe um sistema previamente cadastrado
-    Quando acessar os serviços do sistema
-    E incluir um novo serviço
-    E informar os campos obrigatórios
-    Então o serviço deve ser salvo
+  Regra de Negócio:
+    - O sistema deve existir previamente.
+    - O serviço deve estar vinculado ao sistema.
+    - Os campos obrigatórios devem ser preenchidos.
+    - O serviço só poderá ser utilizado após o salvamento.
 
-  Cenário: Alterar serviço existente
-    Dado que existe um serviço cadastrado
-    Quando alterar seus dados
-    E salvar
-    Então as informações devem ser atualizadas
+  Cenário: Cadastrar serviço com sucesso
+    Dado que existe um sistema cadastrado
+    Quando acessar "Administração > Sistemas > Listar"
+    E selecionar o sistema cadastrado
+    E acessar "Serviços"
+    E clicar em "Novo"
+    E preencher os campos obrigatórios
+    E clicar em "Salvar"
+    Então o serviço deverá ser criado com sucesso
+
+  Cenário: Cadastrar serviço sem informar os dados obrigatórios
+    Dado que o usuário está na tela de cadastro de serviço
+    Quando não informar os campos obrigatórios
+    E clicar em "Salvar"
+    Então deverá ser exibida mensagem de erro
