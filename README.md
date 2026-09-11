@@ -3,12 +3,13 @@ Repositório para gerenciamento do Protocolo GOV.BR
 
 ## O REPOSITÓRIO
 
-Este repositório no GitHub é o local oficial onde será mantido todo o gereniamento do Protocolo GOV.BR. rão
-Pode ser encontrados questões ou problema em aberto e planejamento de novas versões.
+Este repositório no GitHub é o local oficial para o gerenciamento e a manutenção do Protocolo GOV.BR.
+
+Aqui serão registrados os problemas e questões em aberto, bem como o planejamento e o acompanhamento das novas versões 
 
 ## TESTES
 
-Para rotinas de testes do módulo rode ``` make tests-functional ```, mas antes confira **[aqui as orientações iniciais]()**
+Para rotinas de testes do módulo confira **[aqui as orientações iniciais]()**
 
 ## PROJETOS RELACIONADOS
 
