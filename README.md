@@ -19,7 +19,7 @@ Para maiores informações sobre o Protocolo GOV.BR, acesse o endereço https://
 
 Existem diversas formas de colaborar neste projeto:
 
-- Enviar registros de erros ou solicitação de melhorias ([Issues]([https://github.com/pengovbr/mod-sei-sancao-veto/issues](https://github.com/pengovbr/protocologovbr/issues))
+- Enviar registros de erros ou solicitação de melhorias ([Issues](https://github.com/pengovbr/protocologovbr/issues))
 - Revisar a documentação do projeto e enviar qualquer tipo de contribuição via [Pull Request](https://github.com/pengovbr/protocologovbr/pulls)
 
 
